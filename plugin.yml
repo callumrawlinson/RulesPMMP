@@ -1,0 +1,15 @@
+name: Rules
+description: Allows users to view the rules
+author: CallumRawlinson
+main: rules\Main
+load: POSTWORLD
+version: 2.0
+api: 3.0.0
+commands:
+    rules:
+        usage: /rules
+        description: Shows a list of rules.
+permissions:
+    use.rules:
+        default: true
+        description: Allows user to use /rules
